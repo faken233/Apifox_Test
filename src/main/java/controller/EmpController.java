@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class EmpController {
 
     @GetMapping("/app")
-    public String app() {
-        return "Hello World";
+    public String app(String text) {
+        return "Hello World " + text ;
     }
 
 }

@@ -1,4 +1,4 @@
-package controller;
+package com.faken.apifox_test.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 
